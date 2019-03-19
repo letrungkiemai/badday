@@ -1,26 +1,17 @@
-<!DOCTYPE html>
 <html>
-<body>
-
-<div id="demo">
-<h2>The XMLHttpRequest Object</h2>
-<button type="button" onclick="loadDoc()">Change Content</button>
-</div>
-
-<script>
-function loadDoc() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      document.getElementById("demo").innerHTML =
-      this.responseText;
-    }
-  };
-  xhttp.open("GET", "ajax_info.txt", true);
-  xhttp.send();
-}
-</script>
-
-</body>
-</html>
-
+    <head>
+         <title>FOAAS - Version 2.0.0 - FOAAS</title> 
+         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet"> 
+        </head> 
+        <body style="margin-top:40px;"> 
+            <div class="container"> 
+                <div id="view-10">
+                     <div class="hero-unit">
+                          <h1>Version 2.0.0</h1>
+                           <p><em>FOAAS</em></p>
+                         </div>
+                         </div> 
+                         <p style="text-align: center">
+                            <a href="http://foaas.com">foaas.com</a></p> </div>  
+                        </body>
+                        </html>
